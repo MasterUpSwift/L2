@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7494C5A019BE122800A067C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7494C59F19BE122800A067C3 /* Main.storyboard */; };
 		74D3933B19B8D36800A5D722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3933A19B8D36800A5D722 /* AppDelegate.swift */; };
-		74D3933D19B8D36800A5D722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3933C19B8D36800A5D722 /* ViewController.swift */; };
-		74D3934019B8D36800A5D722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D3933E19B8D36800A5D722 /* Main.storyboard */; };
+		74D3933D19B8D36800A5D722 /* LecturesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3933C19B8D36800A5D722 /* LecturesListController.swift */; };
 		74D3934219B8D36800A5D722 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D3934119B8D36800A5D722 /* Images.xcassets */; };
 		74D3934E19B8D36800A5D722 /* Lecture2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3934D19B8D36800A5D722 /* Lecture2Tests.swift */; };
 		74D3935819B8D5E200A5D722 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D3935719B8D5E200A5D722 /* Authentication.storyboard */; };
@@ -27,11 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7494C59F19BE122800A067C3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		74D3933519B8D36800A5D722 /* Lecture2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecture2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D3933919B8D36800A5D722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D3933A19B8D36800A5D722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74D3933C19B8D36800A5D722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74D3933F19B8D36800A5D722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74D3933C19B8D36800A5D722 /* LecturesListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesListController.swift; sourceTree = "<group>"; };
 		74D3934119B8D36800A5D722 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74D3934719B8D36800A5D722 /* Lecture2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lecture2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D3934C19B8D36800A5D722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7494C59E19BE11C900A067C3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		74D3932C19B8D36800A5D722 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +98,7 @@
 		74D3933819B8D36800A5D722 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7494C59E19BE11C900A067C3 /* Sounds */,
 				74D3933919B8D36800A5D722 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,7 +124,7 @@
 		74D3935919B8D5E800A5D722 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				74D3933E19B8D36800A5D722 /* Main.storyboard */,
+				7494C59F19BE122800A067C3 /* Main.storyboard */,
 				74D3935719B8D5E200A5D722 /* Authentication.storyboard */,
 			);
 			name = Storyboards;
@@ -125,7 +133,7 @@
 		74D3935C19B8D88200A5D722 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				74D3933C19B8D36800A5D722 /* ViewController.swift */,
+				74D3933C19B8D36800A5D722 /* LecturesListController.swift */,
 				74D3935A19B8D87B00A5D722 /* LoginViewController.swift */,
 			);
 			name = Controllers;
@@ -211,8 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7494C5A019BE122800A067C3 /* Main.storyboard in Resources */,
 				74D3935819B8D5E200A5D722 /* Authentication.storyboard in Resources */,
-				74D3934019B8D36800A5D722 /* Main.storyboard in Resources */,
 				74D3934219B8D36800A5D722 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D3935B19B8D87B00A5D722 /* LoginViewController.swift in Sources */,
-				74D3933D19B8D36800A5D722 /* ViewController.swift in Sources */,
+				74D3933D19B8D36800A5D722 /* LecturesListController.swift in Sources */,
 				74D3933B19B8D36800A5D722 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,17 +262,6 @@
 			targetProxy = 74D3934819B8D36800A5D722 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		74D3933E19B8D36800A5D722 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74D3933F19B8D36800A5D722 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74D3934F19B8D36800A5D722 /* Debug */ = {
@@ -421,6 +418,7 @@
 				74D3935319B8D36800A5D722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74D3935419B8D36800A5D722 /* Build configuration list for PBXNativeTarget "Lecture2Tests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +427,7 @@
 				74D3935619B8D36800A5D722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
